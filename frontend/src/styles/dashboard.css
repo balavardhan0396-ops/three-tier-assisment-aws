@@ -1,0 +1,145 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #f4f6f9;
+}
+
+/* Header */
+.header {
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Layout */
+.container {
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #111827;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background: #374151;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+/* Employee Form */
+.form-container {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-container button {
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-container button:hover {
+    background: #163172;
+}
+.table-container {
+    margin-top: 30px;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table-container h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #1e3a8a;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.edit-btn {
+    background: #ffc107;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
